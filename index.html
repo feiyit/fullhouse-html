@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- 移动设备 viewport -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,minimal-ui">
+		<meta name="renderer" content="webkit">
+		<link rel="stylesheet" href="lib/css/bootstrap.css" />
+		<link rel="stylesheet" href="lib/css/site.css" />
+		<script type="text/javascript" src="lib/js/jquery.min.js" ></script>
+		<script type="text/javascript" src="lib/js/jquery.lazyload.min.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="footer"></div>
+		<script type="text/javascript">	
+			$(function(){
+				$('.header').load('template/header.html');
+				$('.footer').load('template/footer.html');
+			});
+		</script>
+	</body>
+</html>
